@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1B2D7D46202CD89900BCC40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D7D45202CD89900BCC40E /* AppDelegate.swift */; };
-		1B2D7D48202CD89900BCC40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D7D47202CD89900BCC40E /* ViewController.swift */; };
 		1B2D7D4B202CD89900BCC40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D7D49202CD89900BCC40E /* Main.storyboard */; };
 		1B2D7D4D202CD89900BCC40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D7D4C202CD89900BCC40E /* Assets.xcassets */; };
 		1B2D7D50202CD89900BCC40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D7D4E202CD89900BCC40E /* LaunchScreen.storyboard */; };
 		1B2D7D5B202CD89900BCC40E /* TableViewSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D7D5A202CD89900BCC40E /* TableViewSwiftDemoTests.swift */; };
 		1B2D7D66202CD89900BCC40E /* TableViewSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D7D65202CD89900BCC40E /* TableViewSwiftDemoUITests.swift */; };
+		1B2D7D74202CD8BA00BCC40E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D7D73202CD8BA00BCC40E /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		1B2D7D42202CD89900BCC40E /* TableViewSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2D7D45202CD89900BCC40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B2D7D47202CD89900BCC40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B2D7D4A202CD89900BCC40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B2D7D4C202CD89900BCC40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B2D7D4F202CD89900BCC40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		1B2D7D61202CD89900BCC40E /* TableViewSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2D7D65202CD89900BCC40E /* TableViewSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		1B2D7D67202CD89900BCC40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2D7D73202CD8BA00BCC40E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				1B2D7D45202CD89900BCC40E /* AppDelegate.swift */,
-				1B2D7D47202CD89900BCC40E /* ViewController.swift */,
 				1B2D7D49202CD89900BCC40E /* Main.storyboard */,
 				1B2D7D4C202CD89900BCC40E /* Assets.xcassets */,
 				1B2D7D4E202CD89900BCC40E /* LaunchScreen.storyboard */,
 				1B2D7D51202CD89900BCC40E /* Info.plist */,
+				1B2D7D73202CD8BA00BCC40E /* HomeTableViewController.swift */,
 			);
 			path = TableViewSwiftDemo;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2D7D48202CD89900BCC40E /* ViewController.swift in Sources */,
+				1B2D7D74202CD8BA00BCC40E /* HomeTableViewController.swift in Sources */,
 				1B2D7D46202CD89900BCC40E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
